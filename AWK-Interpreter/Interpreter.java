@@ -877,29 +877,5 @@ public class Interpreter {
 	}
 
 // This method is only for testing.
-	public static void main(String args[]) throws Exception {
-		String test = "# line_loop_example.awk\r\n" + "\r\n" + "{\r\n" + "    print \"Processing line:\", $0\r\n"
-				+ "}\r\n" + "\r\n" + "END {\r\n" + "    print \"Finished processing all lines.\"\r\n" + "}\r\n" + "";
-		Lexer lexer = new Lexer(test);
-		lexer.Lex();
-		Parser parser = new Parser(lexer.getList());
-		ProgramNode program = parser.Parse();
-		// System.out.println(parser.display());
-		Interpreter interpreter = new Interpreter(program, "C:\\Users\\yuvan\\input.txt");
-		interpreter.IntepretProgram(program);
-		// System.out.print(interpreter.hmap.get("match").getValue());
-		// lexer.display();
-		// System.out.println(program);
-		// System.out.println(list.size());
-		// HashMap<String, InterpreterDatatype> localmap = new HashMap<>();
-		// ReturnType type = null;
-		// for (int i = 0; i < list.size(); i++) {
-		// System.out.print(list.get(i) + " ");
-		// type = interpreter.ProcessStatement(localmap, list.get(i));
-		// System.out.println(type.value + " ");
-
-		// }
-		// System.out.println(interpreter.globalvariable_map.get("sum").getValue());
-
-	}
+	
 }
