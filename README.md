@@ -22,4 +22,4 @@ I implemented an interpreter for the AWK scripting language in Java which is com
 # How to get started
 
 1) Clone the repository  
-
+  ``` git clone ```
