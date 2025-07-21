@@ -20,7 +20,7 @@ I implemented an interpreter for the AWK scripting language in Java which consis
 4) Interpretation Phase
 5) Unit testing for each phase
 
-# How to get started
+# How to get started?
 
 1) Clone the repository 
 2) Make two ```txt``` files. One of the files must contain sample data in the form of rows and columns such as the following:
