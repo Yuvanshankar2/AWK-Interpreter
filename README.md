@@ -18,7 +18,7 @@ I implemented an interpreter for the AWK scripting language in Java which consis
 2) Lexer Phase
 3) Parser Phase
 4) Interpretation Phase
-5) Unit testing
+5) Unit testing for each phase
 
 # How to get started
 
