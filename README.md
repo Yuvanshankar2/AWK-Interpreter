@@ -1,3 +1,11 @@
 # AWK-Interpreter
 
-Developed and implemented an AWK interpreter in Java by enabling parsing of AWK scripts, execution of commands, and functionalities that process input file streams, proving to be a powerful tool for the AWK script semantic analysis.
+# What is AWK?
+AWK is a scripting language that is mainly used for processing text. You can learn more about the language from the following sources:
+[https://www.geeksforgeeks.org/linux-unix/awk-command-unixlinux-examples/](url)
+[https://www.baeldung.com/linux/awk-guide](url)
+[https://en.wikipedia.org/wiki/AWK](url)
+
+# Project Description
+I implemented an interpreter for the AWK scripting language in Java which is comprised of the following core components:
+
