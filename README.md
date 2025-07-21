@@ -23,3 +23,20 @@ I implemented an interpreter for the AWK scripting language in Java which is com
 # How to get started
 
 1) Clone the repository 
+2) Make two ```txt``` files. One of the files must contain sample data in the form of rows and columns such as the following:
+   ```
+       A 1000
+       B 2000
+       C 3000
+       D 4000
+       E 5000
+   ```
+   The other file must contain sample awk code. A basic example would be the following:
+
+   ```
+     {
+       if($2 > 3000){
+         print $1;
+       }
+    }
+   ```
