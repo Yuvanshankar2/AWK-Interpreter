@@ -40,10 +40,12 @@ I implemented an interpreter for the AWK scripting language in Java which is com
        }
     }
     ```
-3) Open ```Main.java``` and add replace the existing code with the following:
+3) Open ```Main.java``` and replace the existing block of code with the following:
 
-   ```
-      Path path = Paths.get(args[0]);
+```
+      public class Main {
+	public static void main(String args[]) throws Exception {
+		Path path = Paths.get(args[0]);
 		String data = new String(Files.readAllBytes(path));
 		Lexer lexer = new Lexer(data);
 		lexer.Lex();
@@ -51,8 +53,10 @@ I implemented an interpreter for the AWK scripting language in Java which is com
 		ProgramNode program = parser.Parse();
         Interpreter interpreter = new Interpreter(program, "YOUR AWK FILE");
         interpreter.IntepretProgram(program);
-   ```
-   Replace ```YOUR AWK FILE``` with your awk program text file.
+		}
+	}
+```
+ Replace ```YOUR AWK FILE``` with your awk program text file.
 
 4) Open your terminal and run the following commands:
       ```
@@ -61,5 +65,5 @@ I implemented an interpreter for the AWK scripting language in Java which is com
       ```
    Replace ```FILE PATH``` with the path to your input data file.
 
-   This will run the interpreter and you will see the results on your terminal.
+   This will start the interpreter. The results will be displayed on your terminal.
 
