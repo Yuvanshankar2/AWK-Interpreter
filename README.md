@@ -14,3 +14,12 @@ AWK is a scripting language that is mainly used for processing text. You can lea
 # Project Description
 I implemented an interpreter for the AWK scripting language in Java which is comprised of the following core components:
 
+1) 3-phase agile software development methodology
+2) Lexer Phase
+3) Parser Phase
+4) Interpretation Phase
+
+# How to get started
+
+1) Clone the repository  
+
