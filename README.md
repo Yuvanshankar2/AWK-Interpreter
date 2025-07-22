@@ -64,19 +64,19 @@ This project can help users understand:
 		lexer.Lex();
 		Parser parser = new Parser(lexer.getList()); 
 		ProgramNode program = parser.Parse();
-        Interpreter interpreter = new Interpreter(program, "YOUR AWK FILE");
+        Interpreter interpreter = new Interpreter(program, "YOUR INPUT FILE");
         interpreter.IntepretProgram(program);
 		}
 	}
 ```
- Replace ```YOUR AWK FILE``` with your awk program text file.
+ Replace ```YOUR INPUT FILE``` with your input sample data file.
 
 4) Open your terminal and run the following commands:
       ```
          javac -Xlint Main.java
-         java Main FILE PATH
+         java Main AWK FILE PATH
       ```
-   Replace ```FILE PATH``` with the path to your input data file.
+   Replace ```AWK FILE PATH``` with the path to your awk program file.
 
    This will start the interpreter. The results will be displayed on your terminal.
 
