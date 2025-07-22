@@ -13,20 +13,20 @@ AWK is a scripting language that is mainly used for processing text. You can lea
 
 # Project Description
 
-I implemented an interpreter for the AWK scripting language in Java which consists of the following core components:
+Language used for this project: Java
 
 1) Designed and Implemented an interpreter for AWK, a text processing scripting language, using a 3-stage agile
 software development methodology.
 
-3) Implemented a Lexer phase, which tokenizes an incoming AWK script and stores the resulting tokens in a list.
-4) 
-5) Implemented a Parser phase which parses the list of tokens to generate an Abstract Syntax Tree (AST), providing a
+2) Implemented a Lexer phase, which tokenizes an incoming AWK script and stores the resulting tokens in a list.
+
+3) Implemented a Parser phase which parses the list of tokens to generate an Abstract Syntax Tree (AST), providing a
 structured hierarchical representation of the whole script.
 
-7) Implemented an Interpreter phase, which walks through the AST and executes each parsed component. It leverages
+4) Implemented an Interpreter phase, which walks through the AST and executes each parsed component. It leverages
 hashmaps to store the computed values of global and local variables.
 
-9) Utilized the JUnit testing library to develop unit tests for each phase of the project.
+5) Utilized the JUnit testing library to develop unit tests for each phase of the project.
 
 This project can help users understand:
 
