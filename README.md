@@ -31,7 +31,7 @@ hashmaps to store the computed values of global and local variables.
 This project can help users understand:
 
 1) The fundamental workflow of a lexer and parser.
-2) The overall structure of the scripting language. 
+2) The heirarchical tree-based structure of the scripting language. 
 
 # How to get started?
 
